@@ -1,5 +1,46 @@
-h1 {
+body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 42px;
+    background-color: #2B3D4F;
+}
+header {
+    max-width: 1200px;
+  margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../images/bcn.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
+    padding: 60px 0;
+    color: #fff;
+
+}
+header h1{
+    font-size: 42px;
+    line-height: 1.5;
+    padding: 0 auto;
+    margin: 10px;
+}
+
+header h2 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 10px;
+}
+
+header a {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    color: #2B3D4F;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+footer, a {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
 }
