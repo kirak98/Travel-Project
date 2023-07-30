@@ -29,7 +29,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
 
-}.text-center {
+}
+.text-center {
     text-align: center;
   }
 
@@ -58,6 +59,10 @@ body {
     border-bottom-right-radius: 0;
     
 }
+
+.instagram-embed{
+    margin: 30px 0;
+  }
 
 header {
     max-width: 1200px;
@@ -214,5 +219,10 @@ footer li {
     section {
         padding: 30px;
       }
+
+      .embed {
+        aspect-ratio: 16 / 9;
+      }
+
 
 }
